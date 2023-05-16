@@ -65,21 +65,28 @@ header a{
     padding: 5px 30px;
     margin-right: 10px;
 
+    transition: backgroud-color 0.3s, border-color 0.3s, color 0.3s;
+
 }
 
 .btn-full{
     color:#fff;
     background-color: orange;
 
-    transition: back
+     
 }
 
 .btn-full:hover,
 .btn-full:active
 {
+    
     background-color: rgb(192, 124, 0);
+    border-color: rgb(192, 124, 0);
+
 }
+
 .btn-ghost{
+   
     color: orange;
 }
 
@@ -89,4 +96,5 @@ header a{
     background-color: rgb(192, 124, 0);
     border-color: rgb(192, 124, 0); 
     color: white;
+    
 }
