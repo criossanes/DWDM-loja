@@ -90,7 +90,7 @@ header a{
     color: orange;
 }
 
-.btn-ghost:hover
+.btn-ghost:hover,
 .btn-ghost:active{
 
     background-color: rgb(192, 124, 0);
