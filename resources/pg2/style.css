@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*Facilita dimensionamento dos elementos
+    dizendo que a borda do elemento pertence ao
+    tamanho total deste*/
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #666363;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    /*Otimiza as fontes para leitura*/
+    text-rendering: optimizeLegibility;
+}
+
+html, body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+    overflow-x: hidden; /*faz sumir a barra de rolagem horizontal*/
+}
+
+header nav{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    width: 100%;
+}
+
+header .logo{
+    width: 80px;
+    margin-left: 25px;
+    border: solid 8px transparent;
+}
+
+header .main-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 30%;
+}
+
+header .main-nav a{
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+header .main-nav li{
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-right: solid 4px transparent;
+    border-bottom: solid 4px transparent;
+    transition: border-rigth 0.3s, border-bottom 0.3s;
+}
+
+header .main-nav li:hover{
+    border-right: solid 2px rgb(84, 172, 227);
+    border-bottom: solid 2px rgb(84, 172, 227);
+    
+}
+
+.icones{
+    margin-top: 20px;
+    width: 50px;
+    background-position: center;
+}
+
+header a{
+    text-decoration: none;
+    
+}
+
+section h3 {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.fotos {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    list-style: none;
+}
+
+.fotos > li {
+   border: 2px solid green;
+   margin: 10px;
+   padding: 10px;
+}
+
+.fotos > li > img {
+    width: 300px;
+}
+
+.fotos > li > p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fotos > li > h4 {
+    text-align: center;
+}
+
+.fotos2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    list-style: none;
+}
+
+.fotos2 > li {
+   border: 2px solid green;
+   margin: 10px;
+   padding: 10px;
+}
+
+.fotos2 > li > img {
+    width: 300px;
+}
+
+.fotos2 > li > p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fotos2 > li > h4 {
+    text-align: center;
+}
+
+.fotos3 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    list-style: none;
+}
+
+.fotos3 > li {
+   border: 2px solid green;
+   margin: 10px;
+   padding: 10px;
+}
+
+.fotos3 > li > img {
+    width: 300px;
+    
+}
+
+.fotos3 > li > p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fotos3 > li > h4 {
+    text-align: center;
+    
+}

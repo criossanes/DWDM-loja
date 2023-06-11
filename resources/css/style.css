@@ -38,8 +38,7 @@ html, body {
 
 header{
     height: 100vh;
-    background-image: linear-gradient(rgba(57, 55, 55, 0.1), rgb(62, 60, 60)), url(img/carrocel.png);
-
+    background-image: linear-gradient(rgba(57, 55, 55, 0.1), rgb(62, 60, 60)), url(img/carrocel-1200.png);
     background-size: cover;
     background-position: center;
 }
@@ -99,13 +98,14 @@ header .main-nav li:hover{
     position: absolute;
     /*note o tamanho fixo da largura*/
     width: 1140px; 
-    top: 80%;
+    top: 75%;
     left: 4%;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
 }
 
 header h1{
-    margin: 0;
+    
+    margin: 0%;
     color: #fff;
     font-weight: 300;
     /*espacamento entre palavras e letras*/
@@ -119,12 +119,14 @@ header h1{
 
 }
 .icones{
-    margin-top: 40px;
-    width: 60px;
+    margin-top: 20px;
+    width: 50px;
+    
     background-position: center;
 }
 header a{
     text-decoration: none;
+    
 }
 
 .btn:link, 
@@ -172,16 +174,13 @@ header a{
 
 .section-features{
     text-align: center;
-    
     margin: 20px 10%;
-
 }
+
 
 .section-features h2{
     font-size: 2rem;
-
     margin-bottom: 40px;
-
 }
 
 .section-features h2::after{
@@ -192,45 +191,59 @@ header a{
     background-color: rgb(84, 172, 227);
     margin: 0 auto;
     margin-top: 31px;
-
 }
-.section-features .long-copy{
-    
+
+.section-features .long-copy {
+    text-align: center;
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+.section-photos .long-copy {
+    margin-bottom: 30px;
 }
 
 .images-showcase {
     list-style: none;
     width: 100%;
-    margin-bottom: 10%;
 }
 
 .images-showcase li{
     display: block;
     float: left;
     width: 25%;
-
+    height:600px;
 }
 
 .photo {
-    width: 180px;
-    margin: 80px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
     
 }
 
+.photo img:hover {
+    opacity:1;
+    transform: scale(1.03); 
+}
+
 .photo img{
+    opacity: 0.7;
     width: 100%;
-    height: auto;
-    size: 30px;
+    height: 500px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
 }
 
 .section-photos {
     padding: 0;
     text-align: center;
-
     font-size: 1rem;
     line-height: 1rem;
+    height: 500px;
+    
 }
 
 

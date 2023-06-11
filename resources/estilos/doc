@@ -1,0 +1,152 @@
+
+
+@media screen and (max-width: 768px) and (max-width: 768px) { /* celulares */
+    header {
+        background-image: url(../css/img/carrocel-600.png);
+        height: 50vh;
+    }
+    header h1 {
+        display: none;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        left: 20%;
+    }
+    
+    header .main-nav a {
+        font-size: 0.8rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    
+    .section-features h3 {
+        font-size: smaller;
+    }
+
+    .section-features .row .col{
+        display: contents;
+    }
+
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) and (max-width: 992px) { /* tablet */
+    header {
+        background-image: url(../css/img/carrocel-800.png); 
+    }
+    header h1 {
+        display: none;
+    }
+    nav > img {
+        display: none;
+    }
+    header .main-nav a {
+        font-size: 1rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        
+    }
+
+    .section-features .row .col{
+        display: contents;
+    }
+
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 992px) and (max-width: 1200px) { /* desktop */
+    header {
+        background-image: url(../css/img/carrocel-1200.png);
+    }
+    header h1 {
+        display: none;
+    }
+    nav > img {
+        display: none;
+    }
+    header .main-nav a {
+        font-size: 1rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        
+    }
+    
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) { /* grandes telas */
+    header {
+        background-image: url(../css/img/carrocel-1200.png);
+        height: 50vh;
+    }
+
+    header h1 {
+        display: none;
+    }
+    nav > img {
+        display: none;
+    }
+    header .main-nav a {
+        font-size: 1rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        
+    }    
+}
+

@@ -1,0 +1,151 @@
+@media screen and (max-width: 600px){
+    header {
+        background-image: url(../css/img/carrocel-600.png);
+        height: 50vh;
+    }
+    header h1 {
+        display: none;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        left: 15%;
+        right: 15%;
+    }
+    
+    header .main-nav a {
+        font-size: 0.8rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    
+    .section-features h2 {
+        font-size: 1.0rem;
+    }
+    .section-features h3 {
+        font-size: smaller;
+    }
+
+    .section-features .row .col{
+        display: contents;
+    }
+
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    }
+}
+    
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) { /* tablet */
+    header {
+        background-image: url(../css/img/carrocel-600.png);
+        height: 50vh;
+    }
+    header h1 {
+        display: none;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        left: 25%;
+        right: 25%;
+    }
+    
+    header .main-nav a {
+        font-size: 0.8rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    .section-features h2 {
+        font-size: 1.5rem;
+    }
+    .section-features h3 {
+        font-size: smaller;
+    }
+
+    .section-features .row .col{
+        width: 45%;
+        margin: 5px;
+        columns:auto;
+    }
+
+    .section-features p {
+        font-size: smaller;
+        padding: 15px;
+    }
+    
+    .section-photos h3 {
+        margin-top: 50px;
+    }
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* desktop */
+    header {
+        background-image: url(../css/img/carrocel-600.png);
+        height: 50vh;
+    }
+    header h1 {
+        display: none;
+    }
+    .hero-text-box {
+        position: relative;
+        padding-top: 50px; 
+        font-size: small;
+        left: 35%;
+        right: 35%;
+    }
+    
+    header .main-nav a {
+        font-size: 0.8rem;   
+    }
+    header .main-nav {
+        margin: auto;
+    }
+    
+    .section-features h3 {
+        font-size: smaller;
+    }
+
+    .images-showcase {
+        display: grid;
+        width: auto;
+    }
+    .images-showcase li {
+        margin: auto;
+        width: 50vh;
+    }
+    nav > img {
+        display: none;
+    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+} /* grandes telas */
+   
