@@ -85,6 +85,11 @@ section h3 {
     margin-left: 50px;
 }
 
+section h3 > img{
+    margin: 10px;
+    margin-bottom: -10px;   
+}
+
 .fotos {
     justify-content: center;
     display: flex;
@@ -225,3 +230,5 @@ section h3 {
     background-color: white;
     margin: 80px;
 }
+
+

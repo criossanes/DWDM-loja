@@ -1,0 +1,130 @@
+@media screen and (max-width: 600px) {
+    .main-nav > li > a {
+        font-size: 16px;
+        margin-left:-450px;
+        margin-right: 450px;
+    }
+
+    header .main-nav li:hover {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li a:hover {
+        color: black;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    .card-footer {
+        margin-left: 30px; 
+    }
+
+    .card-footer > ul> li {
+        margin-left: 30px; 
+    }
+
+    .card-footer1 {
+        margin-left: -280px;
+        margin-top: 250px;
+    }
+
+    .card-footer1 > h3 {
+        margin-left: -30px;
+    }
+    .card-footer1 > ul > li {
+        margin-left: 70px;
+    }
+
+    .cartoes > img {
+        margin-left: -180px;
+        margin-top: 5px;
+    }
+
+    .cartoes > h3 {
+        margin-left: -170px;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .main-nav > li > a {
+        font-size: 16px;
+        margin-left:-310px;
+        margin-right: 310px;
+    }
+    
+    header .main-nav li:hover {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li a:hover {
+        color: black;
+    }
+
+    .card-footer {
+        margin-left: 30px; 
+    }
+
+    .card-footer > ul> li {
+        margin-left: 30px; 
+    }
+
+    .card-footer1 {
+        margin-left: 80px;
+    }
+
+    .card-footer1 > h3 {
+        margin-left: -30px;
+    }
+    .card-footer1 > ul > li {
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-nav > li > a {
+        font-size: 16px;
+        margin-left:-250px;
+        margin-right: 290px;
+    }
+
+    .card-footer {
+        margin-left: 30px; 
+    }
+
+    .card-footer > ul> li {
+        margin-left: 30px; 
+    }
+
+    .card-footer1 {
+        margin-left: 250px;
+    }
+
+    .card-footer1 > h3 {
+        margin-left: -30px;
+    }
+    .card-footer1 > ul > li {
+        margin-left: 70px;
+    }
+
+}

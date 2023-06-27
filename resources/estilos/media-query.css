@@ -1,8 +1,27 @@
 @media screen and (max-width: 600px){
     header {
-        background-image: url(../css/img/carrocel-600.png);
+        /*background-image: url(../css/img/carrocel-600.png);*/
         height: 50vh;
     }
+
+    html {
+        overflow: inherit;
+    }
+
+    .search-area h2 {
+        font-size: smaller;
+    }
+       
+    .slider {
+        width: 400px;
+        background-image: url(../css/img/slider1.png);
+        background-repeat: no-repeat;
+    }
+
+    .slides {
+        display: none;
+    }
+
     header h1 {
         display: none;
     }
@@ -43,15 +62,37 @@
     nav > img {
         display: none;
     }
+
+    .long-copy{
+        margin-top: 50px;
+    }
+
 }
     
 
 
 @media screen and (min-width: 600px) and (max-width: 992px) { /* tablet */
+    
+   
     header {
-        background-image: url(../css/img/carrocel-600.png);
+        /*background-image: url(../css/img/carrocel-600.png);*/
         height: 50vh;
     }
+
+    html {
+        overflow: inherit;
+    }
+
+    .slider {
+        width: 600px;
+        background-image: url(../css/img/slider2.png);
+        background-repeat: no-repeat;
+    }
+
+    .slides {
+        display: none;
+    }
+
     header h1 {
         display: none;
     }
@@ -105,10 +146,16 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) { /* desktop */
+    
+    html {
+        overflow: inherit;
+    }
+    
     header {
-        background-image: url(../css/img/carrocel-600.png);
+        /*background-image: url(../css/img/carrocel-600.png);*/
         height: 50vh;
     }
+
     header h1 {
         display: none;
     }
@@ -146,6 +193,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-
+    body {
+        overflow: hidden;
+    }
 } /* grandes telas */
    

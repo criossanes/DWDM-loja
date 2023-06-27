@@ -175,11 +175,23 @@ section h3 {
    
 }
 
+#cadastro > h3 {
+    text-align: center;
+}
+
+#cadastro > h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: auto;
+}
 .container {
+    margin: auto;
     border: 1px solid black;
     width: 500px;
-    background-color: #cbc3c3;
-    margin: 50px;
+    background-color: #cbc3c3;    
 }
 
 nav img {
@@ -192,13 +204,21 @@ nav img {
 }
 
 form {
+   
     margin: 50px;
     margin-top: 2px;
     margin-bottom: 0%;
     text-align: center;
 } 
 
+
+
+.cadastro {
+    display: flex;
+}
+
 section h3 {
+    
     margin-top: 150px;
     margin-left: 50px;
 }
@@ -211,8 +231,6 @@ section h4 {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid black;
-    
-    
 }
 
 #campo_fone {
@@ -248,4 +266,61 @@ section h4 {
     margin-left: 15px;
     background-color: white;
     margin: 50px;
+}
+
+div {
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+/*#btn_voltar > a {
+    align-content: center;
+}*/
+
+footer {
+    background-color: rgb(33, 30, 30);
+    color: white;
+    height: 350px; 
+    margin-top: 40px; 
+    display: flex;
+}
+
+.card-footer {
+    /*border: 1px solid white;*/
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+    text-align: left; 
+}
+
+.card-footer1 {
+    /*border: 1px solid white;*/
+    display: inline-block;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.servicos li{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.info li {
+    padding: 5px;
+    
+}
+
+.cartoes {
+    background-color: rgb(34, 30, 30);
+    padding-bottom: 40px;
+    padding-left: 230px;
+}
+
+.cartoes > h3 {
+    color: white;
 }

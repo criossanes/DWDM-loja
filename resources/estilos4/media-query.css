@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    .main-nav > li > a {
+        font-size: 16px;
+        margin-left:-150px;
+        margin-right: 150px;
+    }
+
+    header .main-nav li:hover {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li a:hover {
+        color: black;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .main-nav > li > a {
+        font-size: 16px;
+        margin-left:-100px;
+        margin-right: 100px;
+    }
+    header .main-nav li:hover {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li {
+        border-bottom: none;
+        border-right: none;
+        transition: none;
+    }
+
+    header .main-nav li a:hover {
+        color: black;
+    }
+}

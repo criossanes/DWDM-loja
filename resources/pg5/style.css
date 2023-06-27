@@ -74,10 +74,15 @@ header a{
     
 }
 
-section h3 {
+section h3{
     margin: 50px;
     margin-top: 150px;
     margin-left: 50px;
+}
+
+section h3 > img{
+    margin: 10px;
+    margin-bottom: -10px;   
 }
 
 .fotos {
