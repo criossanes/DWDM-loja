@@ -6,6 +6,20 @@
     dizendo que a borda do elemento pertence ao
     tamanho total deste*/
     box-sizing: border-box;
+    
+}
+
+header nav{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.barra {
+    height: 100px;
+    background-color: #000;
 }
 
 h1,h2,h3{
@@ -36,55 +50,84 @@ html, body {
     overflow-x: hidden; /*faz sumir a barra de rolagem horizontal*/
 }
 
-header{
-    height: 100vh;
-    background-image: linear-gradient(rgba(57, 55, 55, 0.1), rgb(62, 60, 60)), url(img/carrocel-1200.png);
-    background-size: cover;
-    background-position: center;
+header h2 {
+    margin-left: 40px;
 }
 
-header nav{
-    position: absolute;
-    top: 20px;
+header .search-box {
     display: flex;
-    align-items: center;
-   
-    width: 100%;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+    margin-top: -40px;
+}
+
+header .compras-box {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+}
+.search-box a {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.compras-box a {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+}
+
+
+header input {
+    padding: 3px;
+}
+
+header{
+    margin-top: 50px;
+    height: 60vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
 }
 
 header .logo{
     width: 80px;
     margin-left: 25px;
-
     border: solid 8px transparent;
+    
 }
 
 header .logo:hover{
     border: solid 8px white;
+    
 }
 
 header .main-nav{
     list-style: none;
     display: flex;
     justify-content: space-around;
-
     flex-grow: 1;
-    
     margin-left: 30%;
+    
 }
 
 header .main-nav a{
     color: white;
     font-size: 1.6rem;
     font-weight: 400;
-
+    
 }
 header .main-nav li{
     padding-bottom: 12px;
     padding-right: 12px;
     border-right: solid 4px transparent;
     border-bottom: solid 4px transparent;
-
+    
     transition: border-rigth 0.3s, border-bottom 0.3s;
 }
 
@@ -92,15 +135,6 @@ header .main-nav li{
 header .main-nav li:hover{
     border-right: solid 4px rgb(84, 172, 227);
     border-bottom: solid 4px rgb(84, 172, 227);
-}
-
-.hero-text-box{
-    position: absolute;
-    /*note o tamanho fixo da largura*/
-    width: 1140px; 
-    top: 75%;
-    left: 4%;
-    /*transform: translate(-50%, -50%);*/
 }
 
 header h1{
@@ -129,68 +163,136 @@ header a{
     
 }
 
-.btn:link, 
-.btn:visited{
-    
-
-    border: solid orange;
-    border-radius: 20px;
-    padding: 5px 30px;
-    margin-right: 10px;
-
-    transition: backgroud-color 0.3s, border-color 0.3s, color 0.3s;
-
+.slider {
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 300px;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
 }
 
-.btn-full{
-    color:#fff;
-    background-color: orange;
-
-     
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;    
 }
 
-.btn-full:hover,
-.btn-full:active
-{
-    
-    background-color: rgb(192, 124, 0);
-    border-color: rgb(192, 124, 0);
-
+.slides input {
+    display: none;
 }
 
-.btn-ghost{
-   
-    color: orange;
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
 }
 
-.btn-ghost:hover,
-.btn-ghost:active{
+.slide img {
+    width: 800px;
+}
 
-    background-color: rgb(192, 124, 0);
-    border-color: rgb(192, 124, 0); 
-    color: white;
-    
+.slide .wall {
+    height: 400px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #ffffff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #fff;
 }
 
 .section-features{
+    border: 1 px solid blue;
     text-align: center;
-    margin: 20px 10%;
+    margin: 0px;
 }
 
 
 .section-features h2{
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 500px;
 }
 
 .section-features h2::after{
     content: "       ";
     width: 100px;
-    height: 3px;
+    height: 4px;
     display: block;
     background-color: rgb(84, 172, 227);
     margin: 0 auto;
-    margin-top: 31px;
+    margin-top: 40px;
 }
 
 .section-features .long-copy {
@@ -245,5 +347,7 @@ header a{
     height: 500px;
     
 }
+
+
 
 

@@ -150,3 +150,77 @@
     }    
 }
 
+<section id="cadastro">
+        <h3 id="cadastro">Faça seu cadastro e receba nossas promoções onde estiver.</h3>
+        <h4>Aproveite para tirar suas dúvidas.</h4>
+            <nav> 
+                    <br>
+                    <form>
+                    <label for="campo_nome">Nome:</label>
+                        <input id="campo_nome" type="text"placeholder="Seu Nome">
+                    </form><br>
+                    <form>
+                        <label for="campo_fone">Telefone:</label>
+                        <input id="campo_fone" type="text"placeholder="Seu Telefone">
+                    </form><br>
+                    <form>
+                        <label for="campo_email">E-mail:</label>
+                        <input id="campo_email" type="text"placeholder="Seu E-mail">
+                    </form><br>
+                    <form>
+                        <label for="campo_duvida">Dúvida:</label>
+                        <input id="campo_duvida" type="text"placeholder="Sua Dúvida">
+                    </form><br>
+                    <form>
+                        <label>Clique aqui:</label> 
+                        <input id="btnenviar" type="submit"placeholder="Enviar">
+                    </form><br>
+                    <br>
+            </nav>          
+    </section>
+
+
+
+{
+    margin: 0;
+    padding: 0;
+
+    /*Facilita dimensionamento dos elementos
+    dizendo que a borda do elemento pertence ao
+    tamanho total deste*/
+    box-sizing: border-box;
+    
+}
+
+
+<header>
+        <nav>
+            <img class="logo" src="iconi.png">
+
+            <ul class="main-nav">
+                <li><a href="pg2.html">Bebê</a></li>
+                <li><a href="pg3.html">Meninas</a></li>
+                <li><a href="pg4.html">Meninos</a></li>
+                <li><a href="pg5.html">Acessórios</a></li>
+                <li><a href="pg6.html">Promoções</a></li>
+
+            </ul>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Deixe seu(a) pequeno(a) em grande estilo. 
+                <br> Linha completa infantil.</h1>
+
+                <a class="btn btn-full" href="#">Comprar Agora</a>
+                <a class="btn btn-ghost" href="#">Mais Informações</a>
+        </div>
+    </header>
+
+
+    header nav{
+        position: absolute;
+        top: 20px;
+        display: flex;
+        align-items: center;
+       
+        width: 100%;
+    }

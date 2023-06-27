@@ -31,7 +31,7 @@ header nav{
     top: 20px;
     display: flex;
     align-items: center;
-    background-color: yellowgreen;
+    background-color: rgb(250, 115, 36);
     width: 100%;
 }
 
@@ -69,18 +69,13 @@ header .main-nav li:hover{
     
 }
 
-.icones{
-    margin-top: 20px;
-    width: 50px;
-    background-position: center;
-}
-
 header a{
     text-decoration: none;
     
 }
 
 section h3 {
+    margin: 50px;
     margin-top: 150px;
     margin-left: 50px;
 }
@@ -94,7 +89,7 @@ section h3 {
 }
 
 .fotos > li {
-   /*border: 2px solid green;*/
+   /*border: 2px solid rgb(250, 115, 36);*/
    margin: 10px;
    padding: 10px;
 }
@@ -109,6 +104,11 @@ section h3 {
     margin-bottom: 20px;
 }
 
+.fotos > li > .ajuste {
+    /*border: 1px solid;*/
+    margin-top: 112px;
+}
+
 .fotos > li > h4 {
     text-align: center;
     margin-bottom: 20px;
@@ -120,7 +120,7 @@ section h3 {
 }
 
 .fotos a {
-    background-color: green;
+    background-color: rgb(250, 115, 36);
     padding: 10px;
     border-radius: 5px;
     color: white;
@@ -137,7 +137,7 @@ section h3 {
 }
 
 .fotos2 > li {
-   /*border: 2px solid green;*/
+   /*border: 2px solid rgb(250, 115, 36);*/
    margin: 10px;
    padding: 10px;
 }
@@ -152,6 +152,11 @@ section h3 {
     margin-bottom: 20px;
 }
 
+.fotos2 > li > .ajuste2 {
+    /*border: 1px solid;*/
+    margin-top: 103px;
+}
+
 .fotos2 > li > h4 {
     text-align: center;
     margin-bottom: 20px;
@@ -159,16 +164,16 @@ section h3 {
 
 .fotos2 li a {
     text-decoration: none;
-    margin: 35%;  
-     
+    margin: 35%;   
 }
 
 .fotos2 a {
-    background-color: green;
+    background-color: rgb(250, 115, 36);
     padding: 10px;
     border-radius: 5px;
     color: white;
     margin-top: 10px;
+   
 }
 
 .fotos3 {
@@ -180,7 +185,7 @@ section h3 {
 }
 
 .fotos3 > li {
-   /*border: 2px solid green;*/
+   /*border: 2px solid rgb(250, 115, 36);*/
    margin: 10px;
    padding: 10px;
 }
@@ -203,16 +208,63 @@ section h3 {
 
 .fotos3 li a {
     text-decoration: none;
-    margin: 35%;  
-     
+    margin: 35%;   
 }
 
 .fotos3 a {
-    background-color: green;
+    background-color: rgb(250, 115, 36);
     padding: 10px;
     border-radius: 5px;
     color: white;
     margin-top: 10px;
+}
+
+.fotos4 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    list-style: none; 
+}
+
+.fotos4 > li {
+   /*border: 2px solid rgb(250, 115, 36);*/
+   margin: 10px;
+   padding: 10px;
+}
+
+.fotos4 > li > img {
+    width: 300px;
+}
+
+.fotos4 > li > p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fotos4 > li > .ajuste3 {
+    /*border: 1px solid;*/
+    margin-top: 32px;
+}
+
+.fotos4 > li > h4 {
+    text-align: center;  
+    margin-bottom: 20px;
+}
+
+.fotos4 li a {
+    text-decoration: none;
+    margin: 35%;   
+}
+
+.fotos4 a {
+    background-color: rgb(250, 115, 36);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+   
 }
 
 #btn_voltar {

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto DWDM</title>
-
+    
     <!--Importacao do Normalize-->
     <link rel="stylesheet" href="../vendors/css/normalize.css">
     
@@ -27,27 +27,79 @@
     
 
 </head>
-<body>
-        <header>
-        <nav>
+<body> 
+    <header>
+        <div class="search-area">
+                <h2>Moda Infantil</h2>
+
+        
+            <div class="search-box">
+                <input class="search-txt" type="text" placeholder="Busque aqui">
+                <a class="search-btn" href="#">
+                    <img src="lupa.png" alt="">
+                </a>
+            </div>  
+            <div class="compras-box">
+                <input class="compras-txt" type="text" placeholder="Sacola de Compras">
+                <a class="search-btn" href="#">
+                    <img src="sacola-de-compras.png" alt="">
+                </a>
+            </div>
+        </div>
+        <nav class="barra">
             <img class="logo" src="iconi.png">
 
             <ul class="main-nav">
                 <li><a href="pg2.html">Bebê</a></li>
                 <li><a href="pg3.html">Meninas</a></li>
                 <li><a href="pg4.html">Meninos</a></li>
-                <li><a href="#">Cadastro</a></li>
+                <li><a href="pg5.html">Acessórios</a></li>
+                <li><a href="pg6.html">Promoções</a></li>
             </ul>
         </nav>
-        <div class="hero-text-box">
-            <h1>Deixe seu(a) pequeno(a) em grande estilo. 
-                <br> Linha completa infantil.</h1>
 
-                <a class="btn btn-full" href="#">Comprar Agora</a>
-                <a class="btn btn-ghost" href="#">Mais Informações</a>
+        <div class="slider">
+
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                        
+    
+                <div class="slide first">
+                    <img class="wall" src="css/img/carrocel-1200.png" alt="img1">
+                </div>
+                <div class="slide">
+                    <img src="css/img/carrocel 2.jpg" alt="img2">
+                </div>
+                <div class="slide">
+                    <img src="css/img/carrocel 1.jpg" alt="img3">
+                </div>
+                <div class="slide">
+                    <img src="css/img/carrocel 3.png" alt="img4">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+    
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
         </div>
     </header>
 
+    
+    
+      
     <section class="section-features">
         <div class="row pitch">
             <h2>Algodão Doce: A sua Loja Online de Roupa Infantil</h2>
@@ -125,5 +177,8 @@
         </ul>
         
     </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
